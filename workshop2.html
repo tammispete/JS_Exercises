@@ -41,6 +41,47 @@
 		</pre>
 		<script>
             <!-- JavaScript goes here -->
+			document.write(" <i><strong>\"If I had nine hours to chop down a tree, I'd spend the first six sharpening my ax.\"</strong> <br> -- Ambraham Lincoln </i>");	
+			
+			document.write("<h2> Exercise 2 </h2>" );
+
+			function repeatingText() {
+				for(i=0; i<50; i++){
+					document.write(" hello world ");
+				}
+			}
+			repeatingText();
+			// TEHTÄVÄ 3
+			document.write("<h2> Excercise 3 </h2>");
+
+			if ( navigator.appCodeName == "Mozilla"){
+			//	 location.href = "http://www.mozilla.org";  poistettu käytöstä jotta voi tehdä loput
+			} else {
+			//	location.href = "http://www.microsoft.com"; poistettu käytöstä jotta voi tehdä loput
+			}
+			// TEHTÄVÄ 4
+			document.write("<h2> Excercise 4 </h2>");			
+			
+			if (confirm("Are you a student?") == true){
+				document.write("Welcome student!");
+			} else {
+				document.write("Sorry this page is for stundets only!");
+			}
+			// TEHTÄVÄ 5
+			document.write("<h2> EXCERCISE 5</h2>");
+			document.write("<img src=https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.dumpaday.com%2Fwp-content%2Fuploads%2F2019%2F12%2Fpictures-10-2.jpg&f=1&nofb=1>");
+			
+			
+			var number = Math.round(Math.random()*2);
+
+			var images =[
+				"http://farm4.staticflickr.com/3691/11268502654_f28f05966c_m.jpg", 
+				"http://farm1.staticflickr.com/33/45336904_1aef569b30_n.jpg", 
+				"http://farm6.staticflickr.com/5211/5384592886_80a512e2c9.jpg"
+			];
+			document.images[0].src = images[number];
+			
+			
 		</script>
 	</body>
 </html>
